@@ -20,3 +20,4 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 vim.keymap.set("n", "<leader>lsp", "<cmd>LspRestart<cr>")
 
 vim.keymap.set("n", "<leader>pv", "<cmd>Oil<CR>", { desc = "Oil: show cwd" })
+vim.keymap.set("n", "<leader>-", "<cmd>Oil<CR>", { desc = "Oil: show cwd" })
